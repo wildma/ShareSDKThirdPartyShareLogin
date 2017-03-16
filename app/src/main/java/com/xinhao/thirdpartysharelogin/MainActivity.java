@@ -1,5 +1,6 @@
-package com.xinhao.thirdpartyshare;
+package com.xinhao.thirdpartysharelogin;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,9 +16,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void share(View view) {
+    public void onekeyShare(View view) {
         showShare();
     }
+
+    public void goThirdPartyLogin(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
+
 
     private void showShare() {
         OnekeyShare oks = new OnekeyShare();

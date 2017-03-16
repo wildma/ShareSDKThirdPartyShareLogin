@@ -1,4 +1,4 @@
-package com.xinhao.thirdpartyshare;
+package com.xinhao.thirdpartysharelogin;
 
 import org.junit.Test;
 
