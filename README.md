@@ -1,4 +1,4 @@
-# ThirdPartyShareLogin
+# ShareSDKThirdPartyShareLogin
 Android使用ShareSDK集成第三方分享和第三方登录
 
 详细介绍见下列文章
